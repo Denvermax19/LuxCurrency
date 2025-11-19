@@ -82,13 +82,12 @@ It adapts to **you**, not the other way around.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/hybrid-currency-converter.git
-cd hybrid-currency-converter
+git clone https://github.com/denvermax001/luxcurrency.git
+cd luxcurrency
 ```
 ### 2. Start backend
 
 ```bash
-npm install
 npm start
 ```
 
