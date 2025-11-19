@@ -1,7 +1,6 @@
 import React from 'react';
 import { Background } from './components/Background';
 import { ConverterCard } from './components/ConverterCard';
-import { ApiKeyStatus } from './components/ThemeToggle';
 
 const App: React.FC = () => {
   return (
@@ -18,7 +17,7 @@ const App: React.FC = () => {
         </p>
       </footer>
       
-      <ApiKeyStatus />
+      
     </main>
   );
 };

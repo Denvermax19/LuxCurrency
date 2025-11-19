@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import { Currency } from "../types";
+import { Currency } from "../src/types";
 
 // Using a safer implementation that doesn't crash if env is missing, 
 // but strictly follows the instruction to use process.env.API_KEY
