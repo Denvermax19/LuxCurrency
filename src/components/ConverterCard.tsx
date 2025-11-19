@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { ArrowRightLeft, Info } from 'lucide-react';
 import { Currency } from '../types';
-=======
-import React, { useState, useEffect, useCallback } from 'react';
-import { ArrowRightLeft, Sparkles, Info } from 'lucide-react';
-import { Currency, ParseResult, ConversionResult } from '../src/types';
->>>>>>> a95d42b8985f41f1d96eb6786f2b30339bb01932
 import { parseHybridNumber } from '../utils/parser';
 import { formatAmerican, formatAmericanAbbr, formatIndian, formatIndianAbbr, formatCurrency } from '../utils/formatter';
 import { getExchangeRates } from '../services/currencyService';
