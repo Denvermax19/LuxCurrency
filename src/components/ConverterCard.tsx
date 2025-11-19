@@ -62,7 +62,7 @@ export const ConverterCard: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="font-serif text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-lux-silver via-white to-lux-silver tracking-tight mb-2">
-            LuxCurrency
+            LuxCurrencY
           </h1>
           <p className="text-lux-gold/80 text-sm uppercase tracking-widest font-semibold">Hybrid Converter</p>
         </div>
@@ -79,7 +79,7 @@ export const ConverterCard: React.FC = () => {
         <div className="space-y-6">
           <div className="relative group">
             <label className="block text-xs font-semibold text-lux-gold uppercase tracking-wider mb-2 ml-1">
-              {sourceCurrency === Currency.INR ? 'Indian Hybrid Input' : 'US Format Input'}
+              {sourceCurrency === Currency.INR ? 'INR Hybrid Input' : 'USD Format Input'}
             </label>
             <input
               type="text"
