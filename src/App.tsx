@@ -16,6 +16,11 @@ const App: React.FC = () => {
           Designed for Global Citizens
         </p>
       </footer>
+<<<<<<< HEAD
+=======
+      
+      
+>>>>>>> a95d42b8985f41f1d96eb6786f2b30339bb01932
     </main>
   );
 };
