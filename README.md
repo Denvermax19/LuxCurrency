@@ -1,11 +1,6 @@
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-## Run Locally
+# Run and deply Luxcurrency app locally
 
 **Prerequisites:**  Node.js
-
 
 1. Install dependencies:
    `npm install`
