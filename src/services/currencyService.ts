@@ -1,5 +1,5 @@
-import { DEFAULT_RATES } from '../src/constants';
-import { RateData } from '../src/types';
+import { DEFAULT_RATES } from '../constants';
+import { RateData } from '../types';
 
 let rateCache: RateData | null = null;
 
