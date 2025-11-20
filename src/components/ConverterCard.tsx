@@ -124,7 +124,7 @@ export const ConverterCard: React.FC = () => {
                         ? formatAmerican(result) 
                         : formatIndian(result)}
                     </div>
-                    <div className="text-sm text-lux-grey font-mono mt-1">
+                    <div className="text-xs text-lux-grey font-mono mt-1">
                        Compact: {targetCurrency === Currency.USD 
                         ? formatAmericanAbbr(result) 
                         : formatIndianAbbr(result)}
