@@ -119,7 +119,7 @@ export const ConverterCard: React.FC = () => {
                 {/* Formatted Equivalents */}
                 {result && (
                   <div className="text-right">
-                    <div className="text-xl text-lux-silver font-medium">
+                    <div className="text-2xl text-lux-silver font-medium">
                       {targetCurrency === Currency.USD 
                         ? formatAmerican(result) 
                         : formatIndian(result)}
